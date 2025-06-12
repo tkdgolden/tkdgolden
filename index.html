@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Scenarios</title>
+</head>
+<body>
+    <div>
+        <h1>Baseball Scenarios</h1>
+    </div>
+    <div>
+        <div>
+            <h2>Position:</h2>
+            <select id="position">
+                <option value="0">1st</option>
+                <option value="1">2nd</option>
+                <option value="2">Short Stop</option>
+                <option value="3">3rd</option>
+                <option value="4">Pitcher</option>
+                <option value="5">Catcher</option>
+                <option value="6">Left Field</option>
+                <option value="7">Center Field</option>
+                <option value="8">Right Field</option>                
+            </select>
+            <input type="checkbox" id="positionLocked">Lock</input>
+        </div>
+        <div>
+            <h2>Runners:</h2>
+            <select id="runners">
+                <option value="0">Runner on 1st</option>
+                <option value="1">Runner on 2nd</option>
+                <option value="2">Runner on 3rd</option>
+                <option value="3">Nobody on Base</option>
+                <option value="4">Runners on 1st and 2nd</option>
+                <option value="5">Runners on 1st and 3rd</option>
+                <option value="6">Runners on 2nd and 3rd</option>
+                <option value="7">Bases Loaded</option>
+            </select>
+            <input type="checkbox" id="runnersLocked">Lock</input>
+        </div>
+        <div>
+            <h2>Outs:</h2>
+            <select id="outs">
+                <option value="0">No Outs</option>
+                <option value="1">1 Out</option>
+                <option value="2">2 Outs</option>
+            </select>
+            <input type="checkbox" id="outsLocked">Lock</input>
+        </div>
+        <button onclick="spin()">Spin All</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
