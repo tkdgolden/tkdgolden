@@ -4,7 +4,7 @@ function spin() {
         const randomIndex = Math.floor(Math.random() * select.options.length);
         if (select.value == randomIndex) {
             select.value = randomIndex + 1;
-            if (select.value > select.options.length) {
+            if (select.value == select.options.length) {
                 select.value--;
             }
         }
@@ -17,7 +17,7 @@ function spin() {
         const randomIndex = Math.floor(Math.random() * select.options.length);
         if (select.value == randomIndex) {
             select.value = randomIndex + 1;
-            if (select.value > select.options.length) {
+            if (select.value == select.options.length) {
                 select.value--;
             }
         }
@@ -30,7 +30,7 @@ function spin() {
         const randomIndex = Math.floor(Math.random() * select.options.length);
         if (select.value == randomIndex) {
             select.value = randomIndex + 1;
-            if (select.value > select.options.length) {
+            if (select.value == select.options.length) {
                 select.value--;
             }
         }
