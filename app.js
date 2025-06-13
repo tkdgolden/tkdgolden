@@ -5,7 +5,7 @@ function spin() {
         if (select.value == randomIndex) {
             select.value = randomIndex + 1;
             if (select.value == select.options.length) {
-                select.value--;
+                select.value = 0;
             }
         }
         else {
@@ -18,7 +18,7 @@ function spin() {
         if (select.value == randomIndex) {
             select.value = randomIndex + 1;
             if (select.value == select.options.length) {
-                select.value--;
+                select.value = 0;
             }
         }
         else {
@@ -31,7 +31,7 @@ function spin() {
         if (select.value == randomIndex) {
             select.value = randomIndex + 1;
             if (select.value == select.options.length) {
-                select.value--;
+                select.value = 0;
             }
         }
         else {
