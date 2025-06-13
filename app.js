@@ -3,7 +3,7 @@ function spin() {
         const select = document.getElementById("position");
         const randomIndex = Math.floor(Math.random() * select.options.length);
         if (select.value == randomIndex) {
-            select.value = randomIndex ++;
+            select.value = randomIndex + 1;
         }
         else {
             select.value = randomIndex;
@@ -13,7 +13,7 @@ function spin() {
         const select = document.getElementById("runners");
         const randomIndex = Math.floor(Math.random() * select.options.length);
         if (select.value == randomIndex) {
-            select.value = randomIndex ++;
+            select.value = randomIndex + 1;
         }
         else {
             select.value = randomIndex;
@@ -23,7 +23,7 @@ function spin() {
         const select = document.getElementById("outs");
         const randomIndex = Math.floor(Math.random() * select.options.length);
         if (select.value == randomIndex) {
-            select.value = randomIndex ++;
+            select.value = randomIndex + 1;
         }
         else {
             select.value = randomIndex;
